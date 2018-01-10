@@ -1,0 +1,30 @@
+<!DOCUMENT html>
+<html lang="en">
+    <head>
+        <title>freeCodeCamp Wikipedia Viewer</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    </head>
+
+    <div class="container head-wrapper">
+        <img src="wiki-logo.svg" class="wiki-logo center-block">
+        <input type="search" placeholder="Searching Wikipedia..." class="wiki-search center-block">
+        <div class="container text-center wiki-btn-wrapper">
+            <button class="btn btn-default wiki-btn" id="wiki-search-btn">Wiki</button>
+            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" alt="Spin That Wheel" class="btn btn-danger wiki-btn">Feeling Spicy</a>
+        </div>
+    </div>
+
+    <div class="container result-quantity"></div>
+
+    <div class="container search-results"></div>
+
+    <footer class="container text-center">Site created by <a href="https://mstub.github.io/portfolio" target="_blank">Matt Stubenhofer</a> for <a href="https://www.freecodecamp.org/challenges/build-a-wikipedia-viewer" target="_blank">freeCodeCamp Wiki</a> Project</footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"></script>
+    <script src="app.js"></script>
+</html>

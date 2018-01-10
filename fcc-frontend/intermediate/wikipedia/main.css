@@ -1,0 +1,65 @@
+footer a:link {
+    color: orange;
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: maroon;
+}
+
+footer a:hover {
+    color: orangered;
+    text-decoration: none;
+}
+
+footer {
+    height: 80px;
+    padding-top: 20px;
+}
+
+.head-wrapper {
+    margin-top: 50px;
+}
+
+.wiki-btn {
+    margin: 0 4px;
+    display: flex;
+    align: center;
+    justify: center;
+}
+
+.wiki-btn-wrapper {
+    padding: 30px;
+}
+
+.wiki-logo {
+    width: 250px;
+    max-width: 45%;
+    display: flex;
+    height: auto;
+}
+
+.wiki-meta {
+    color: lightcoral;
+    font-size: 0.9rem;
+}
+
+.wiki-result {
+    padding: 10px;
+}
+
+.wiki-search {
+    margin-top: 100px;
+    width: 500px;
+    max-width: 75%;
+}
+
+.wiki-title a {
+    color: orange;
+    font-size: 1.8rem;
+}
+
+.wiki-title a:hover {
+    color: orangered;
+    text-decoration: none;
+}
