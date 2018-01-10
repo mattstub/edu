@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: rgba(145, 54, 232, 0.7) !important;
+}
+
+#instructions {
+    font-size: 10px;
+    font-style: italic;
+}
+
+#time {
+    font-size: 16px;
+    font-style: italic;
+}
+
+#title {
+    background-color: rgba(145, 54, 232, 0.7) !important;
+    color: gainsboro;
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+#weather-container {
+    font-size: 30px;
+    line-height: 1.5;
+    min-height: 500px;
+    background-color: gainsboro;
+    color: rgba(145, 54, 232, 0.7);
+}
+
+#weather-container div {
+    padding: 10px;
+}
+
+#weather {
+    font-size: 100px;
+}
