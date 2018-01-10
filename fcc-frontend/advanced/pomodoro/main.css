@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Changa+One');
+@import url('https://fonts.googleapis.com/css?family=Original+Surfer');
+
+body {
+    font-size: 10px;
+    background-color: rgba(255, 83, 1, 0.6) !important;
+    color: white !important; 
+}
+
+footer {
+    font-size: 1.25rem;
+    margin-top: 3%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.controls {
+    margin-top: 3%;
+    font-size: 2rem;
+}
+
+.clock {
+    font-size: 5rem;
+    margin: 5% 0;
+    font-family: 'Original Surfer', cursive;
+}
+
+.faded {
+    transition: 550ms ease-in-out;
+    color: rgba(255, 83, 1, 0.2) !important;
+}
+
+.available {
+    transition: 550ms ease-in-out;
+    color: white;
+}
+
+.time {
+    font-size: 2rem;
+}
+
+#refresh {
+    padding: 10px;
+}
+
+#title {
+    margin-top: 2%;
+    font-size: 6rem;
+    font-family: 'Changa One', cursive;
+}
+
+@media only screen and (max-width: 1000px) {
+    footer {
+        font-size: 0.75rem;
+    }
+
+    .clock {
+        font-size: 2.5rem;
+    }
+
+    .controls {
+        font-size: 1.5rem;
+    }
+    
+    .time {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    .time-title {
+        font-size: 1rem;
+    }
+
+    #title {
+        font-size: 3rem;
+    }
+}
