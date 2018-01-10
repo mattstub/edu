@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+    <link href="stylesheets/main.css" rel="stylesheet">
+    <title>Tic-Tac-Code</title>
+</head>
+<header>
+    <div id="title">Tic Tac Code</div>
+    <div id="message"></div>
+    <button class="hidden" onClick="begin()" id="new-game">New Game</button>
+</header>
+
+<body>
+    <div class="container hidden" id="game-board">
+        <div class="box" id="0"></div>
+        <div class="box" id="1"></div>
+        <div class="box" id="2"></div>
+        <div class="box" id="3"></div>
+        <div class="box" id="4"></div>
+        <div class="box" id="5"></div>
+        <div class="box" id="6"></div>
+        <div class="box" id="7"></div>
+        <div class="box" id="8"></div>
+    </div>
+
+    <div class="load" id="load-screen">
+        <div>
+            <p class="player-title" id="player">Which letter would you like to play as?</p>
+            <button class="selection" onClick="playerSelection(this.id)" id="X">X</button> 
+            <button class="selection" onClick="playerSelection(this.id)" id="O">O</button>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p>Created by <a href="http://www.mattstub.com" alt="MattStub.com" target="_blank">Matt Stubenhofer</a> for <a href="http://www.freecodecamp.org" alt="Free Code Camp" target="_blank">freeCodeCamp</a>. 2017 All Rights Reserved.</p>
+</footer>
+
+<script src="scripts/main.js"></script>
+</html>

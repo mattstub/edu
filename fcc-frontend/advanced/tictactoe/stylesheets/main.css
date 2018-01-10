@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Suez+One');
+
+html {
+    font-size: 10px;
+    background-color: rgba(255, 83, 15, 0.5);
+    color: rgba(235, 235, 235, 0.8);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 2px 2px 2px dimgray;
+    position: fixed;
+    left: 0px;
+    bottom: 1rem;
+    height: 6rem;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 83, 15, 0.95);
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+header {
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+    height: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    text-shadow: 2px 2px 2px dimgray
+}
+
+.box {
+    display: grid;
+    background-color: rgba(255, 83, 15, 0.7);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 4rem;
+    font-family: 'Suez One', sans-serif;
+    justify-self: stretch;
+    align-content: center;
+    justify-content: center;
+}
+
+.disabled {
+    transition: ease-in-out 1s;
+    opacity: 0.5;
+}
+
+.winner {
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {  
+    50% { opacity: 0; }
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 125px 125px 125px;
+    grid-template-rows: 125px 125px 125px;
+    grid-gap: 1rem;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 10rem;
+    justify-content: center;
+}
+
+.load {
+    display: flex;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.player-title {
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px dimgray;    
+}
+
+.selection {
+    width: 30%;
+    font-size: 2.5rem;
+}
+
+#title {
+    font-size: 5rem;
+}
+
+#message {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
