@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simone</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  </head>
+  <body>
+    <section class="container-fluid">
+
+      <!-- Controls -->
+      <section class="container controller text-center">
+        <h1 class="title" id="gameTitle">Simon<sup>®</sup></h1> 
+        <h3 id="counter">--</h3>
+        <button class="btn btn-md btn-success" id="start">Start</button>
+        <button class="btn btn-md btn-info" id="reset">Reset</button>
+        <button class="btn btn-md btn-danger" id="mode">Strict</button>
+      </section>
+
+      <!-- Game Board -->
+      <section id="board" class="container">
+        <div class="row justify-content-center">
+          <div data-key='1' class="tile col-sm-2" id="tile-0"></div>
+          <div data-key='2' class="tile col-sm-2" id="tile-1"></div>
+        </div>
+        <div class="row justify-content-center">
+          <div data-key='3' class="tile col-sm-2" id="tile-2"></div>
+          <div data-key='4' class="tile col-sm-2" id="tile-3"></div>
+        </div>
+      </section>
+
+    </section>
+
+    <audio data-key='1' src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+    <audio data-key='2' src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+    <audio data-key='3' src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+    <audio data-key='4' src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="scripts/index.js"></script>
+
+  </body>
+</html>
