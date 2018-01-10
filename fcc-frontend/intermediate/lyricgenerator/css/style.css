@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Saira);
+
+body { 
+    background-image: url("http://nambuccaheadsbowling.com.au/wp-content/uploads/2015/08/guitar-music-notes-wallpaper-1024x768.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-position: top left; 
+    background-color: #0a0a0a; 
+    font-family: 'Saira', sans-serif;
+    color: #FFFFFF; }
+
+footer { 
+    position: absolute; 
+    right: 0;
+    left: 0; 
+    bottom: 0; 
+    padding: 1rem;
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+a { 
+    color: peru; 
+}
+
+a:hover {
+    text-decoration: none;
+    color: orangered;
+}
+
+#lyricContainer { 
+    margin-top: 30px; 
+    font-size: 120%;
+}
+
+.row {
+    margin: 20px;
+}
