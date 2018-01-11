@@ -18,6 +18,10 @@
   padding-top: 20px;
 }
 
+#display {
+  padding-top: 30px;
+}
+
 #tile-0 {
   background-color: #2baa51;
 }
