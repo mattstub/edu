@@ -1,4 +1,5 @@
 # freeCodeCamp - Front End Certification
+![Front End Certification](fcc-front-cert.png)
 
 A collection of the challenges and projects created for the front end curriculum
 
