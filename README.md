@@ -7,6 +7,6 @@ Enjoy!
 ### Courses
 - [dir](/udacity-google) | [Udacity's Grow with Google Challenge (Scholarship)](https://www.udacity.com/grow-with-google)
 - [dir](/udemy-node_postgresql) | [Udemy's Node, SQL, & PostgreSQl - Mastering Backend Web Development](https://www.udemy.com/node-postgresql/)
-- [dir](/fcc-backend) | [freeCodeCamp - Front End Challenges](https://www.freecodecamp.org)
-- [dir](/fcc-frontend) | [freeCodeCamp - Back End Challenges](https://www.freecodecamp.org)
+- [dir](/fcc-frontend) | [freeCodeCamp - Front End Challenges](https://www.freecodecamp.org)
+- [dir](/fcc-backend) | [freeCodeCamp - Back End Challenges](https://www.freecodecamp.org)
 - [dir](/javascript30) | [JavaScript30](https://www.javascript30.com)
