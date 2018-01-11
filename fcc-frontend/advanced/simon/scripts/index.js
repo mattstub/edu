@@ -13,67 +13,129 @@
 
 */
 
+// Variables -- DOM
+const counter = $('#counter');
+const reset = $('#reset');
+const start = $('#start');
+const tile = $('.tile');
+const strictMode = $('#mode');
+const display = $('#display');
+
+// Variables -- GAME
 let user = [];
 let comp = [];
 let round = 0;
 let strict = false;
 
-$(document).ready(function() {
-	$('#start').click(launchGame);
-	$('.tile').click(function() {
-		if(round < 20)
-			verifyMove(this.id);
-	});
+// Sounds
+const sound0 = new Audio('https://s3.amazonaws.com/freecodecamp/simonSound1.mp3');
+const sound1 = new Audio('https://s3.amazonaws.com/freecodecamp/simonSound2.mp3');
+const sound2 = new Audio('https://s3.amazonaws.com/freecodecamp/simonSound3.mp3');
+const sound3 = new Audio('https://s3.amazonaws.com/freecodecamp/simonSound4.mp3');
+const sound5 = new Audio('sounds/error.wav');			// error	https://freesound.org/s/363920/
+const sound6 = new Audio('sounds/success.wav');		// win		https://freesound.org/s/353546/
 
+$(document).ready(function() {
+	start.click(launchGame);
+	tile.click(function() { playerMove(this.id) });
+	reset.click(launchGame);
+	strictMode.click(gameMode);
 });
 
-// Start of game when the user initializes
 function launchGame() {
 	resetGame();
-	generateGame();
-	$('#counter').html(round+1);
-	flashTile(comp[round]);
+	generateMove();
+	counter.html(round+1);
+	flashSequence();
 }
 
-// Clear all variable stores for a new game
 function resetGame() {
 	user = [];
 	comp = [];
 	round = 0;
 }
+	
+function gameMode() {
+	strict = !strict;
+	if(strict) 
+		display.html('<h3>Strict Mode Enabled</h3>');
+	else
+		display.html('<h3>Fun Mode Enabled<h3>');
+}
 
-function generateGame() {
-	for(let count = 0; count < 20; count++)
-		comp.push(Math.floor(Math.random() * 4));
-	console.log(comp);
+function generateMove() {
+	comp.push(Math.floor(Math.random() * 4));
+	console.log(`Round ${round} started, sequence is ${comp}`);
+}
+
+function flashSequence() {
+	let temp = 0;
+	let moves = setInterval(function() {
+		flashTile(comp[temp]);
+		temp++;
+		if(temp >= comp.length) {
+			clearInterval(moves)
+			// console.log(`sequence for round ${round} complete`);
+		}
+	}, 600);
+	user = [];
 }
 
 function flashTile(element) {
-	console.log(`Tile ${element} should flash`);
+	// console.log(`Tile ${element} should flash`);
 	const flash = $(`#tile-${element}`);
-	flash.addClass('clicked')
-	const time = setTimeout(() => { flash.removeClass('clicked') }, 300);
+	flash.addClass('clicked');
+	playSound(element);
+	let time = setTimeout(() => { flash.removeClass('clicked') }, 200);
 }
 
-function verifyMove(element) {
+function playerMove(element) {
 	const temp = parseInt(element.slice(5));
 	user.push(temp);
 	flashTile(temp);
-	console.log(`Player chose ${temp}`);
-	
-	if(comp[round] === user[round] && round < 19) {
-		console.log(`Success! Player has chosen correctly, next move!`)
-		round++;
-		console.log(`Round ${round} has started! -->`)
-		$('#counter').html(round+1);
-		const time = setTimeout(() => { flashTile(comp[round]) }, 300);
-	} else if(round == 19) {
-		console.log(`You win!`);
-		alert(`You Win!`);
-	} else if(strict) {
-		console.log(`You Lose, final round was ${round}`);
-	} else if(!strict){
-		console.log(`Try again!`);
-	}
+	// console.log(`Player chose ${temp}`);
+	setTimeout(verifyMove, 400);
+}
 
+function verifyMove() {
+	if(user[user.length-1] !== comp[user.length-1]) {
+		if(strict) {
+			// console.log(`You Lose, final round was ${round}`);
+			playSound(5);
+			alert(`You Lose! New Game!`);
+			setTimeout(launchGame, 1000);
+		} else {
+			// console.log(`Try again!`);
+			playSound(5);
+			alert(`Wrong Move, try again!`);
+			setTimeout(flashSequence, 750);
+		}
+	} else {
+		console.log(`Correct Move!`);
+		if(user.length === comp.length) {
+			if(round == 19) {
+				// console.log(`You have won!`);
+				playSound(6);
+				alert(`You Win! Congrats!`);
+				setTimeout(launchGame, 5000);
+			} else {
+				// console.log(`Next Round!`);
+				round++;
+				counter.html(round+1);
+				generateMove();
+				setTimeout(flashSequence, 750);
+			}
+		}
+	}
+}
+
+function playSound(element) {
+	switch(element) {
+		case 0: sound0.play(); break;
+		case 1: sound1.play(); break;
+		case 2: sound2.play(); break;
+		case 3: sound3.play(); break;
+		case 5: sound5.play(); break;
+		case 6: sound6.play(); break;
+	}
 }
