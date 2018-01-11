@@ -1,16 +1,17 @@
-# Twitch.tv Zipline for FreeCodeCamp
-1. A simple site that shows the status of predefined set of users on twitch
-2. Makes two JSON requests to retrieve information and verify if users are online, offline, or unavailable
+# Twitch.tv API
 
-# v1.0
--- Basic Funcality
--- Ability to narrow results to online or offline
+[Production](http://www.mattstub.com/edu/fcc-frontend/intermediate/twitch) -- Live Version  
+[Challenge](https://www.freecodecamp.org/challenges/use-the-twitchtv-json-api) -- Challenge Specs
 
-# Issues
--- Ability to search the list for specific users
--- Alter the fade out of elements on the list
--- Make buttons toggle status for better functionality
-
-# Author Information
--- Matt Stubenhofer
--- matt.ds@outlook.com
+- [x] Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/Myvqmo/.
+- [x] Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
+- [x] User Story: I can see whether Free Code Camp is currently streaming on Twitch.tv.
+- [x] User Story: I can click the status output and be sent directly to the Free Code Camp's Twitch.tv channel.
+- [x] User Story: if a Twitch user is currently streaming, I can see additional details about what they are streaming.
+- [x] Hint: See an example call to Twitch.tv's JSONP API at http://forum.freecodecamp.org/t/use-the-twitchtv-json-api/19541.
+- [x] Hint: The relevant documentation about this API call is here: https://dev.twitch.tv/docs/v5/reference/streams/#get-stream-by-user.
+- [x] Hint: Here's an array of the Twitch.tv usernames of people who regularly stream: ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]
+- [x] UPDATE: Due to a change in conditions on API usage explained here Twitch.tv now requires an API key, but we've built a workaround. Use https://wind-bow.glitch.me/twitch-api instead of twitch's API base URL (i.e. https://api.twitch.tv/kraken ) and you'll still be able to get account information, without needing to sign up for an API key.
+- [x] Remember to use Read-Search-Ask if you get stuck.
+- [x] When you are finished, click the "I've completed this challenge" button and include a link to your CodePen.
+- [x] You can get feedback on your project by sharing it with your friends on Facebook.

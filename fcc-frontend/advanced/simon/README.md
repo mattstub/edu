@@ -1,8 +1,7 @@
 # Simon Game
 
-The last project for my Front End Certification with freeCodeCamp
-
-[Simon Challenge](https://www.freecodecamp.org/challenges/build-a-simon-game)  
+[Production](http://www.mattstub.com/edu/fcc-frontend/advanced/simon) -- Live Version  
+[Challenge](https://www.freecodecamp.org/challenges/build-a-simon-game) -- Challenge Specs  
 
 - [x] Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/obYBjE.
 - [x] Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
