@@ -4,14 +4,14 @@ A collection of the challenges and projects created for the front end curriculum
 
 ### Directory
 - Basic
-  - [tribute](/basic/tribute) **completed**
+  - [tribute](/basic/tribute) | [live](http://www.mattstub.com/edu/fcc-frontend/basic/tribute)
 - Intermediate
-  - [lyric machine](/intermediate/lyricgenerator) **completed**
-  - [local weather app](/intermediate/localweather) **completed**
-  - [wikipedia viewer](/intermediate/wikipedia) **completed**
-  - [twitch.tv](/intermediate/twitch) **completed**
+  - [lyric machine](/intermediate/lyricgenerator) | [live](http://www.mattstub.com/edu/fcc-frontend/intermediate/lyricgenerator)
+  - [local weather app](/intermediate/localweather) | [live](http://www.mattstub.com/edu/fcc-frontend/intermediate/localweather)
+  - [wikipedia viewer](/intermediate/wikipedia) | [live](http://www.mattstub.com/edu/fcc-frontend/intermediate/wikipedia)
+  - [twitch.tv](/intermediate/twitch) | [live](http://www.mattstub.com/edu/fcc-frontend/intermediate/twitch)
 - Advanced
-  - [javascript calculator](/advanced/calculator) **completed**
-  - [pomodoro clock](/advanced/pomodoro) **completed**
-  - [tic-tact-toe](/advanced/tictactoe) **completed**
-  - [simon game](/advanced/simon)
+  - [javascript calculator](/advanced/calculator) | [live](http://www.mattstub.com/edu/fcc-frontend/advanced/calculator)
+  - [pomodoro clock](/advanced/pomodoro) | [live](http://www.mattstub.com/edu/fcc-frontend/advanced/pomodoro)
+  - [tic-tact-toe](/advanced/tictactoe) | [live](http://www.mattstub.com/edu/fcc-frontend/advanced/tictactoe)
+  - [simon game](/advanced/simon) | [live](http://www.mattstub.com/edu/fcc-frontend/advanced/simon)
