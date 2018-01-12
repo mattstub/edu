@@ -1,0 +1,19 @@
+/* Base color names */
+h1 {
+    color: red;
+}
+
+/* Hexidecimal */
+h4 {
+    color: #FF04B0; 
+}
+
+/* RGB */
+li {
+    color: rgb(68, 0, 100);
+}
+
+/* RGBA */
+p {
+    color: rgba(0, 200, 100, 0.8);
+}

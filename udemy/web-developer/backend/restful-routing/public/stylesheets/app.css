@@ -1,0 +1,16 @@
+footer {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+form {
+    display: inline;
+}
+
+i.icon {
+    font-size: 2em;
+}
+
+.container.main {
+    margin-top: 7em;
+}
