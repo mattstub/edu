@@ -32,3 +32,7 @@ Let's walk through installing PostgreSQL with the postgresapp on Mac.
 ### Windows:
 - Download the installer specified by EnterpriseDB for all supported PostgreSQL versions. 
   - Installer is available [here](https://www.postgresql.org/download/windows/)
+
+## Options
+- Locate the `pg_hba.conf` file in your system and change the database connections at the bottom of the file to **md5** as opposed to **trust** to require passwords when making connections.
+- You can then set up a environment variable to handle the password in a config script with `export PGPASSWORD=<password>`
