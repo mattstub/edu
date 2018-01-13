@@ -1,12 +1,23 @@
 #!/bin/bash
 
-database="monstersdb"
+source './env/db.conf'
 
-echo "Configuring database: $database"
+echo "Configuring database: $MONDB"
 
-dropdb -U node_user monstersdb
-createdb -U node_user monstersdb
+dropdb -U $MONUSER $MONDB
+createdb -U $MONUSER $MONDB
+psql -U $MONUSER $MONDB < ./bin/sql/$MONDIR.sql
 
-psql -U node_user monstersdb < ./bin/sql/monsters.sql
+echo "$MONDB configured"
+echo 
+echo
+echo "Clearing environment..."
 
-echo "$database configured"
+source './env/dbcls.conf'
+
+echo
+echo
+echo "Environment has been reset!"
+echo "Get back to work!"
+echo
+
