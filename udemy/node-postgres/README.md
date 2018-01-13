@@ -3,9 +3,10 @@
 A collection of snippets and programs written during David Katz's course available on Udemy.
 
 ### Directory
-- [fortunes-api](/udemy-node_postgresql/fortunes-api): an api with endpoints for random fortunes
+- [fortunes-api](fortunes-api): an api with endpoints for random fortunes
+- [monsters-api](monsters-api): an api with endpoints for random monsters
 
 ### Dependencies
 - NodeJS
 - NPM
-- [PostgreSQL](postgresql-installation.md): For help installing, please follow the link
+- [PostgreSQL](psql/postgresql-installation.md): For help installing, please follow the link
