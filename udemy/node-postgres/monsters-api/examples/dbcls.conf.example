@@ -9,6 +9,6 @@
 ### Make sure file name is set at 'dbcls.conf' within the 'env' directory
 
 unset PGPASSWORD
-unset MUSER
-unset MDB
-unset MDIR
+unset MONUSER
+unset MONDB
+unset MONDIR

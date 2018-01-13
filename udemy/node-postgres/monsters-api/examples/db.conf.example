@@ -9,6 +9,6 @@
 ### Make sure file name is set at 'db.conf' within the 'env' directory
 
 export PGPASSWORD='<user password>'
-export MUSER='<user name>'
-export MDB='<database name>'
-export MDIR='<seeds file name>'
+export MONUSER='<user name>'
+export MONDB='<database name>'
+export MONDIR='<seeds file name>'
