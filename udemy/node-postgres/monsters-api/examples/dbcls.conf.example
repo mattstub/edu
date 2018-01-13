@@ -1,0 +1,14 @@
+# Clear Environment Variables
+
+## Once the database configure script has executed, this file is sourced to clear variables from the process
+## This way we are not leaving any exposed variables that could potentially be accessed through log files
+
+### Replace information within carrots to necessary environment variables
+### These variables names must match the variables within 'db.conf' in order to clear properly
+### Place file in an 'env' directory at the root of the project '/env'
+### Make sure file name is set at 'dbcls.conf' within the 'env' directory
+
+unset PGPASSWORD
+unset MUSER
+unset MDB
+unset MDIR

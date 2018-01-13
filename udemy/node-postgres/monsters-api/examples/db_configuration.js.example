@@ -1,0 +1,11 @@
+# Replace information within carrots to your local environment variables as needed
+# Place file in an 'env' directory at the root of the project '/env'
+# Make sure file name is set at 'db_configuration.js' within the 'env' directory
+
+module.exports = {
+  user: '<username>',
+  host: '<hostIP>',
+  database: '<databaseNAME>',
+  password: '<password>',
+  port: <port#>
+}

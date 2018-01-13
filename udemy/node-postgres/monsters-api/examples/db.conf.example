@@ -1,0 +1,14 @@
+# Environment Variables
+
+## These variables will be sourced into memory for access during the configuration process
+## Once the script has completed configuration, they will be exported from the system with the 'dbcls.conf'
+
+### Replace information within carrots to necessary environment variables
+### These variables names must match the variables within 'dbcls.conf' in order to clear properly
+### Place file in an 'env' directory at the root of the project '/env'
+### Make sure file name is set at 'db.conf' within the 'env' directory
+
+export PGPASSWORD='<user password>'
+export MUSER='<user name>'
+export MDB='<database name>'
+export MDIR='<seeds file name>'
