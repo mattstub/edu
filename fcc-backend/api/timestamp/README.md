@@ -12,5 +12,5 @@
 - [ ] You can get feedback on your project by sharing it with your friends on Facebook.
 
 ### Resources
-[Moment.js](https://momentjs.com/docs/#/parsing/string-format/) -- Docs on formatting with Moment.js  
+[Moment.js - String Formatting](https://momentjs.com/docs/#/parsing/string-format/) -- Docs on formatting with Moment.js  
 [Moment.js - Unix Timestamp](https://momentjs.com/docs/#/parsing/unix-timestamp/) -- documentation about handling unix time
