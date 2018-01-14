@@ -1,5 +1,7 @@
 # Udemy's Node, SQL, & PostgreSQl - Mastering Backend Web Development
 
+![Certification](cert.jpg)
+
 A collection of snippets and programs written during David Katz's course available on [Udemy](https://www.udemy.com/node-postgresql).
 
 ### Directory
