@@ -1,5 +1,7 @@
 # Udemy's The Complete Javascript Course
 
+![Certification](cert.jpg)
+
 A collection of snippets and programs written during Jonas Schmedtmann's course available on [Udemy](https://www.udemy.com/the-complete-javascript-course).
 
 ### Directory
