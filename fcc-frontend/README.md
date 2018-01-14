@@ -1,9 +1,11 @@
 # freeCodeCamp - Front End Certification
 ![Front End Certification](fcc-front-cert.png)
 
-A collection of the challenges and projects created for the front end curriculum
+A collection of the challenges and projects created for the front end curriculum as well as the sandbox I utilized in later challenges to work with something other than built in browser IDE
 
 ### Directory
+- Snippets
+  - [code sandbox](snippets)
 - Basic
   - [tribute](basic/tribute) | [live](http://www.mattstub.com/edu/fcc-frontend/basic/tribute)
   - [portfolio](http://www.mattstub.com)
