@@ -3,6 +3,6 @@
 A collection of the challenges and projects created for the back end curriculum
 
 ### Directory
-- [expressworks](node/expressworks)
-- [learnyounode](node/learnyounode)
+- [expressworks](nodejs/expressworks)
+- [learnyounode](nodejs/learnyounode)
 - [timestamp-ms](api/timestamp)
