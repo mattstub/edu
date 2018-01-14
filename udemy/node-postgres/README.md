@@ -1,6 +1,6 @@
 # Udemy's Node, SQL, & PostgreSQl - Mastering Backend Web Development
 
-A collection of snippets and programs written during David Katz's course available on Udemy.
+A collection of snippets and programs written during David Katz's course available on [Udemy](https://www.udemy.com/node-postgresql).
 
 ### Directory
 - [fortunes-api](fortunes-api): an api with endpoints for random fortunes
