@@ -15,7 +15,7 @@ This repository will hold each of the 30 challenges as I complete them, as well 
 - [x] [Fun with HTML5 Canvas](d08) -- **9 January 2018**
 - [x] [14 Must Know Dev Tools Tricks](d09) -- **10 January 2018**
 - [x] [Hold Shift to Check Multiple Checkboxes](d10) -- **12 January 2018**
-- [ ] Custom HTML5 Video Player
+- [x] [Custom HTML5 Video Player](d11) -- **15 January 2018**
 - [ ] Key Sequence Detection (Konami Code)
 - [ ] Slide In on Scroll
 - [ ] Object & Arrays - Reference VS Copy
