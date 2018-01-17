@@ -1,0 +1,21 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+Your response goes here!
+
+1.  What new skills have you learned?  
+To this point I have been fairly familiar with the HTML aspects that we have learned, having worked with HTML before. However I don't use a lot of the text markup tags very often so had to look up tags for strike through and superscript text.
+
+2.  What has been easy?  
+Most of this HTML stuff hasn't changed since I messed with it back in the myspace days outside of some of the wording on text tags, so its been a little bit like hopping back on a bike.
+
+3.  What has been difficult?  
+Finding the time to get into all of the curriculum.
+
+4.  How have you used the problem solving strategies from the first project to overcome challenges so far?
+Read-Search-Ask is a concept that they try to enforce with the freeCodeCamp lessons, which is much of what was identified in earlier challenges here which has worked well
