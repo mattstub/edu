@@ -17,7 +17,7 @@ This repository will hold each of the 30 challenges as I complete them, as well 
 - [x] [Hold Shift to Check Multiple Checkboxes](d10) -- **12 January 2018**
 - [x] [Custom HTML5 Video Player](d11) -- **15 January 2018**
 - [x] [Key Sequence Detection (Konami Code)](d12) -- **17 January 2018**
-- [ ] Slide In on Scroll
+- [x] [Slide In on Scroll](d13) -- **18 January 2018**
 - [ ] Object & Arrays - Reference VS Copy
 - [ ] Local Storage and Event Delegation
 - [ ] CSS Text Shadow Mouse Move Effect
