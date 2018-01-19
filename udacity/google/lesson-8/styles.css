@@ -1,0 +1,35 @@
+/* add your CSS here */
+.card {
+  box-shadow: 5px 5px 5px rgba(5,5,5,0.4);
+  border: 1px solid gray;
+  padding: 0px 15px 25px 15px;
+  width: 300px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.card-information {
+  border: 1px solid gray;
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+
+.card-image {
+  max-width: 300px;
+  height: auto;
+  padding-bottom: 15px;
+  border-radius: 3px;
+}
+
+.card-fact {
+  font-style: italic;
+}
+
+.card-item-title {
+  font-weight: bold;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 200%;
+}
