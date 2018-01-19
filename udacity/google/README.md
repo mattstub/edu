@@ -5,3 +5,6 @@ This folder contains my snippets as required for quizzes that must be completed 
 ### Contents
 - [Lesson 3](lesson-3): HTML Syntax Problem Set
 - [Lesson 4](lesson-4): Mockup to Article
+- [Lesson 6](lesson-6): CSS Syntax Problem Set
+- [Lesson 7](lesson-7): Keyboard Shortcuts
+- [Lesson-8](lesson-8): Animal Trading Cards Review
