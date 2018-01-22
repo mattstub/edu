@@ -4,3 +4,4 @@ A collection of snippets and programs written during Maximilian Schwarzmüller's
 
 ### Directory
 - [first-app](first-app) -- a walk through sandbox on learning the cli and new projects
+- [recipes](recipes) -- this is the main course project that we will work on through out the course
