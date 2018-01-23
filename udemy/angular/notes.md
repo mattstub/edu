@@ -30,3 +30,8 @@
 - Selectors in components are somewhat of a directive with a template to back up
 - Directives do not have to be tied to templates
 - Structural directives require a * in place, i.e. `*ngif=""`
+
+## Property Event Binding
+- Can bind to properties and events of standard HTML elements
+- Can bind to custom properties and events of directives
+- Can also bind to custom properties and events of components
