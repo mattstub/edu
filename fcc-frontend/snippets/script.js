@@ -684,6 +684,7 @@ Closures
 Arguments object
 */
 
+/*
 function addTogether() {
     //console.log('---------------------');
     //console.log('--> NEW TEST CASE <--');
@@ -744,3 +745,27 @@ function addTogether() {
   addTogether(2)([3]);
   // should return undefined.
   // number verification fails on arguments[1]
+  */
+
+  /* ---------- FALSY BOUNCER ---------- 305 ---------- */
+
+  function bouncer(arr) {
+    //console.log(arr.filter(Boolean));
+    //console.log(arr);
+    let filtered = []; 
+    arr.forEach(cur => {
+        if(cur)
+            filtered.push(cur)
+    });
+    //for(let i = 0; i < arr.length; i++) {
+        //console.log(arr[i]);
+        //if(arr[i])
+            //filtered.push(arr[i]);
+    //}
+    console.log(filtered);
+  }
+
+bouncer([7, "ate", "", false, 9]) // should return [7, "ate", 9]
+bouncer(["a", "b", "c"]) // should return ["a", "b", "c"]
+bouncer([false, null, 0, NaN, undefined, ""]) // should return []
+bouncer([1, null, NaN, 2, undefined]) // should return [1, 2]
