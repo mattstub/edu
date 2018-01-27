@@ -1,6 +1,7 @@
-# tour-of-heroes-ms
+# Tour of Heroes
+The following project can be found at [Angular.io](https://angular.io/tutorial). It is the official tutorial project for getting your feet wet with Angular, and I would highly recommend taking a look at it if you are unfamiliar with a framework.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1, using [StackBlitz IDE](https://www.stackblitz.com).
 
 ## Development server
 
