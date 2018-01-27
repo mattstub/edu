@@ -19,7 +19,7 @@ This repository will hold each of the 30 challenges as I complete them, as well 
 - [x] [Key Sequence Detection (Konami Code)](d12) -- **17 January 2018**
 - [x] [Slide In on Scroll](d13) -- **18 January 2018**
 - [x] [Object & Arrays - Reference VS Copy](d14) -- **26 January 2018**
-- [ ] Local Storage and Event Delegation
+- [x] [Local Storage and Event Delegation](d15) -- **27 January 2018**
 - [ ] CSS Text Shadow Mouse Move Effect
 - [ ] Sorting Band Names Without Articles
 - [ ] Tally String Times with Reduce
