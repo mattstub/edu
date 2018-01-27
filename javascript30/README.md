@@ -18,7 +18,7 @@ This repository will hold each of the 30 challenges as I complete them, as well 
 - [x] [Custom HTML5 Video Player](d11) -- **15 January 2018**
 - [x] [Key Sequence Detection (Konami Code)](d12) -- **17 January 2018**
 - [x] [Slide In on Scroll](d13) -- **18 January 2018**
-- [ ] Object & Arrays - Reference VS Copy
+- [x] [Object & Arrays - Reference VS Copy](d14) -- **26 January 2018**
 - [ ] Local Storage and Event Delegation
 - [ ] CSS Text Shadow Mouse Move Effect
 - [ ] Sorting Band Names Without Articles
