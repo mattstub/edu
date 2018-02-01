@@ -11,5 +11,7 @@ Enjoy!
 - [dir](udemy/node-postgres) -- [David Katz's Mastering Backend Web Development](https://www.udemy.com/node-postgresql/)
 - [dir](udemy/web-developer) -- [Colt Steele's Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)
 - [dir](udemy/angular) -- [Maximilian Schwarzmüller's Angular 5 Complete Guide](https://www.udemy.com/the-complete-guide-to-angular-2/)
+- [dir](udemy/complete-javascript) -- [Jonas Schmedtmann's Complete JavaScript Course](https://www.udemy.com/the-complete-javascript-course/)
 - [dir](javascript30) -- [JavaScript30](https://www.javascript30.com)
 - [dir](tourofheroes) -- [Angular.io - Tour of Heroes](https://angular.io/tutorial)
+- [dir](vue-tutorial) -- [Vue.JS - Introduction](https://vuejs.org/v2/guide/)
