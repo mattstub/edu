@@ -10,4 +10,4 @@ This folder contains my snippets as required for quizzes that must be completed 
 - [Lesson-8](lesson-8): Animal Trading Cards Review
 - [Lesson-12:14](lesson-12:14): Shirt Sizing Quiz
 - [Lesson-12:18](lesson-12:18): Navigating the Food Chain Quiz
-- [Lesson-12:21](lesson-12:21): 
+- [Lesson-12:21](lesson-12:21): Back to School
