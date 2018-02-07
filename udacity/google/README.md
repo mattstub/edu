@@ -8,8 +8,8 @@ This folder contains my snippets as required for quizzes that must be completed 
 - [Lesson 6](lesson-6): CSS Syntax Problem Set
 - [Lesson 7](lesson-7): Keyboard Shortcuts
 - [Lesson-8](lesson-8): Animal Trading Cards Review
-- [Lesson-12:14](lesson-12:14): Shirt Sizing Quiz
-- [Lesson-12:18](lesson-12:18): Navigating the Food Chain Quiz
-- [Lesson-12:21](lesson-12:21): Back to School
-- [Lesson-13:4](lesson-13:4): JuliaJames
-- [Lesson-13:5](lesson-13:5): 99 Bottles of Juice
+- [Lesson-12/quiz-14](lesson-12/quiz-14): Shirt Sizing Quiz
+- [Lesson-12/quiz-18](lesson-12/quiz-18): Navigating the Food Chain Quiz
+- [Lesson-12/quiz-21](lesson-12/quiz-21): Back to School
+- [Lesson-13/quiz-4](lesson-13/quiz-4): JuliaJames
+- [Lesson-13/quiz-5](lesson-13/quiz-5): 99 Bottles of Juice
