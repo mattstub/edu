@@ -13,3 +13,9 @@ This folder contains my snippets as required for quizzes that must be completed 
 - [Lesson-12/quiz-21](lesson-12/quiz-21): Back to School
 - [Lesson-13/quiz-4](lesson-13/quiz-4): JuliaJames
 - [Lesson-13/quiz-5](lesson-13/quiz-5): 99 Bottles of Juice
+- [Lesson-13/quiz-6](lesson-13/quiz-6): Countdown, Liftoff
+- [Lesson-13/quiz-11](lesson-13/quiz-11): Charnging the Loop
+- [Lesson-13/quiz-12](lesson-13/quiz-12): Fix The Error 1
+- [Lesson-13/quiz-13](lesson-13/quiz-13): Fix The Error 2
+- [Lesson-13/quiz-14](lesson-13/quiz-14): Factorials!
+- [Lesson-13/quiz-15](lesson-13/quiz-15): Find My Seat
