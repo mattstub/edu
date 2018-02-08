@@ -34,3 +34,8 @@ This folder contains my snippets as required for quizzes that must be completed 
 - [Lesson-15/quiz-20](lesson-15/quiz-20): Another Type of Loop
 - [Lesson-15/quiz-22](lesson-15/quiz-22): I Got Bills
 - [Lesson-15/quiz-25](lesson-15/quiz-25): Nested Numbers
+- [Lesson-16/quiz-3](lesson-16/quiz-3): Umbrella
+- [Lesson-16/quiz-8](lesson-16/quiz-8): Menu Items
+- [Lesson-16/quiz-9](lesson-16/quiz-9): Bank Accounts
+- [Lesson-16/quiz-11](lesson-16/quiz-11): Facebook Friends
+- [Lesson-16/quiz-12](lesson-16/quiz-12): Donuts Revisited
