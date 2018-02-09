@@ -39,3 +39,4 @@ This folder contains my snippets as required for quizzes that must be completed 
 - [Lesson-16/quiz-9](lesson-16/quiz-9): Bank Accounts
 - [Lesson-16/quiz-11](lesson-16/quiz-11): Facebook Friends
 - [Lesson-16/quiz-12](lesson-16/quiz-12): Donuts Revisited
+- [Final Project](pixel-art-maker): Pixel Art Maker
