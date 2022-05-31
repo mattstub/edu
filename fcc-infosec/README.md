@@ -8,8 +8,8 @@ A collection of the challenges and projects created for the information security
   - [bcrypt](boilerplate-bcrypt)
   - [python for pentesting](python-for-pentesting)
 - Back End Development & API Projects
-  - [stock price checker]()
-  - [anonymous message board]()
-  - [port scanner]()
-  - [sha-1 password cracker]()
-  - [secure real time multiplayer game]()
+  - [stock price checker]() - *placeholder*
+  - [anonymous message board]() - *placeholder*
+  - [port scanner]() - *placeholder*
+  - [sha-1 password cracker]() - *placeholder*
+  - [secure real time multiplayer game]() - *placeholder*

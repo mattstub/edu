@@ -8,8 +8,8 @@ A collection of the challenges and projects created for the back end curriculum.
   - [basic node & express](node-express)
   - [mongodb & mongoose]()
 - Back End Development & API Projects
-  - [timestamp microservice]()
-  - [request header parser microservice]()
-  - [url shortener microservice]()
-  - [exercise tracker]()
-  - [file metadata microservice]()
+  - [timestamp microservice]() - *placeholder*
+  - [request header parser microservice]() - *placeholder*
+  - [url shortener microservice]() - *placeholder*
+  - [exercise tracker]() - *placeholder*
+  - [file metadata microservice]() - *placeholder*
