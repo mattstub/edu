@@ -1,4 +1,5 @@
-# freeCodeCamp - Back End Development & APIs
+# freeCodeCamp - Back End Certification
+![Back End Certification](fcc-backend.png)
 
 A collection of the challenges and projects created for the back end curriculum. This directory is my current focus as of 5/31/2022
 
