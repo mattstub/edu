@@ -1,7 +1,8 @@
 # freeCodeCamp - Front End Certification
+*Legacy*
 ![Front End Certification](fcc-front-cert.png)
 
-A collection of the challenges and projects created for the front end curriculum as well as the sandbox I utilized in later challenges to work with something other than built in browser IDE
+A collection of the challenges and projects created for the *Legacy* front end curriculum as well as the sandbox I utilized in later challenges to work with something other than built in browser IDE
 
 ### Directory
 - Snippets
